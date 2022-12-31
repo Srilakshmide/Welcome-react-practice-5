@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 62px;
+  font-weight: bold;
+  color: #f0bb03;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.button {
+  height: 35px;
+  width: 120px;
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+}
